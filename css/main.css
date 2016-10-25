@@ -441,6 +441,7 @@
 	font-weight:bold;
 	font-size:12px;
 }
+
 .products .product-list .product-content dd a{
 	display:inline-block;
 	height:24px;
@@ -450,6 +451,12 @@
 	color:#555555;
 	padding-top:12px;
 
+}
+.products .product-list .product-content .one a{
+	width:auto;
+	display:block;
+	text-indent:10px;
+	margin-bottom:-10px;
 }
 .products .product-banner{
 	width:810px;
@@ -462,6 +469,7 @@
 	height:40px;
 	border-bottom:2px solid #ccc;
 	font-family:"宋体";
+	margin-bottom:-1px;
 }
 .products .product-banner .content-title h4{
 	height:34px;
@@ -491,6 +499,9 @@
 	font-size:12px;
 	color:#333;
 }
+.products .product-banner .content-item .description a:hover{
+	text-decoration:underline;
+}
 .products .product-banner .content-item .unitprice{
 	height:30px;
 	line-height:30px;
@@ -509,6 +520,73 @@
 	padding:0 2px;
 	background:url(../imgs/icon/comment.jpg) left bottom no-repeat;
 }
+.products .product-banner .content-item .comments i{
+	display:inline-block;
+	color:#085c9b;
+	height:12px;
+	line-height:12px;
+	font-style:normal;
+}
+.products .product-banner .content-item .comments i:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+/*产品筛选页*/
+.product-banner .screen{
+	width:100%;
+	padding-top:16px;
+	background:red;
+	font-family:"宋体";
+	font-size:12px;
+}
+.product-banner .screen .screen-item{
+	border-bottom:1px solid #ccc;
+}
+.product-banner .screen .screen-item .sort-detail{
+	width:670px;
+	background:pink;
+}
+.product-banner .screen .screen-item .sort-detail dt{
+	width:76px;
+	height:34px;
+	line-height:34px;
+	float:left;
+	text-align:right;
+	padding-right:40px;
+}
+.product-banner .screen .screen-item .sort-detail .no-limit{
+}
+.product-banner .screen .screen-item .sort-detail .no-limit a{
+	color:#FFF;
+	background-color:#1d7ad9;
+	margin-top:8px;
+	padding:2px;
+	float:left;
+	display:inline-block;
+	padding-right:28px;
+}
+.product-banner .screen .screen-item .sort-detail .no-limit a:hover{
+	text-decoration:underline;
+}
+.product-banner .screen .screen-item .sort-detail .screen-content{
+	background-color:yellow;
+	line-height:34px;
+	padding-left:116px;
+}
+.product-banner .screen .screen-item .sort-detail .screen-content a{
+	padding-right:18px;
+	color:#1d8ee3;
+}
+.product-banner .screen .screen-item span{}
+
+
+
+
+
+
+
+
 
 
 

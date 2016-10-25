@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+/*解决png图片在css代码中不透明的问题*/
+body{
+	background:url(图片路径) ;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="图片路径");
+	_background:none;
+}
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,for,fieldset,table,td,img,div,dl,dt,dd,input{
 	margin:0;
 	padding:0;
