@@ -536,16 +536,16 @@
 .product-banner .screen{
 	width:100%;
 	padding-top:16px;
-	background:red;
 	font-family:"宋体";
 	font-size:12px;
 }
 .product-banner .screen .screen-item{
 	border-bottom:1px solid #ccc;
+	width:100%;
 }
 .product-banner .screen .screen-item .sort-detail{
 	width:670px;
-	background:pink;
+	float:left;
 }
 .product-banner .screen .screen-item .sort-detail dt{
 	width:76px;
@@ -554,6 +554,7 @@
 	float:left;
 	text-align:right;
 	padding-right:40px;
+	color:#999999;
 }
 .product-banner .screen .screen-item .sort-detail .no-limit{
 }
@@ -564,34 +565,85 @@
 	padding:2px;
 	float:left;
 	display:inline-block;
-	padding-right:28px;
+	margin-right:30px;
 }
 .product-banner .screen .screen-item .sort-detail .no-limit a:hover{
 	text-decoration:underline;
 }
 .product-banner .screen .screen-item .sort-detail .screen-content{
-	background-color:yellow;
 	line-height:34px;
 	padding-left:116px;
 }
 .product-banner .screen .screen-item .sort-detail .screen-content a{
-	padding-right:18px;
+	padding-right:30px;
 	color:#1d8ee3;
 }
-.product-banner .screen .screen-item span{}
+.product-banner .screen .screen-item .sort-detail .screen-content a:hover{
+	text-decoration:underline;
+}
+.product-banner .screen .screen-item span{
+	display:inline-block;
+	width:36px;
+	height:34px;
+	line-height:34px;
+	background-color:blue;
+	background:url(../imgs/icon/more.jpg) 28px center no-repeat;
+}
+.product-banner .screen .screen-item span a{
+	height:12px;
+	color:#000;
+}
+.product-banner .screen .screen-item span a:hover{
+	text-decoration:underline;
+}
+.product-banner .screen .screen-item .sort-detail .screen-content .span{
+	height:22px;
+	width:88px;
+	line-height:22px;
+	text-align:center;
+	border:1px solid #ccc;
+	background:url(../imgs/icon/more.jpg) 72px center no-repeat;
+	cursor:pointer;
+}
+.product-banner .screen .screen-item .sort-detail .screen-content .span a{
+	color:#000;
+}
+.product-banner .screen .screen-item .sort-detail .screen-content .span a:hover{
+	text-decoration:none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*商品展示区*/
+.products .product-banner .content-titles{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	border:1px solid #ccc;
+	background-color:#f5f5f5;
+	margin-top:14px;
+	font-family:"宋体";
+	font-size:12px;
+	padding:0 80px 0 10px;
+}
+.products .product-banner .content-titles .left i{
+	font-style:normal;
+	color:#666666;
+	border:1px solid #ccc;
+	padding:6px 28px 6px 10px;
+	margin-left:6px;
+	background:url(../imgs/icon/address.jpg) 90px center no-repeat;
+	cursor:pointer;
+}
+.products .product-banner .content-titles .right{
+	background:url(../imgs/icon/checkbox.jpg) left center no-repeat;
+	padding-left:18px;
+}
+.products .product-banner .content-titles .right span{
+	color:#999999;
+	padding-left:12px;
+}
+.products .product-banner .content-titles .right span b{
+	color:#d80000;
+}
 
 
 
